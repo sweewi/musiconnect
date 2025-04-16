@@ -5,15 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Musiconnect</title>
     <link rel="stylesheet" href="src/styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
     <header>
         <h1>Welcome to Musiconnect</h1>
     </header>
     <main>
-        <div id="search-container">
-            <input type="text" id="artist-search" placeholder="Search for an artist...">
-            <div id="search-results"></div>
+        <div class="search-section">
+            <div id="search-container">
+                <input type="text" id="artist-search" placeholder="Search for an artist...">
+                <div id="search-results"></div>
+            </div>
+        </div>
+        <div class="visualization-section">
+            <div id="network-container"></div>
         </div>
     </main>
     <footer>
