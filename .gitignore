@@ -7,12 +7,11 @@ node_modules/
 
 # IDE files
 .vscode/
-.idea/
 
 # System files
 .DS_Store
-Thumbs.db
+.cache
+*.log
 
 # Build files
 dist/
-build/
